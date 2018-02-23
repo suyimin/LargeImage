@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_singleDemoV_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="纵向长图" />
+
+    <Button
+        android:id="@+id/main_singleDemoH_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="横向长图" />
+
+    <Button
+        android:id="@+id/main_singleDemoN_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通图片" />
+
+    <Button
+        android:id="@+id/main_viewPagerDemo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ViewPager里的大图片" />
+
+    <Button
+        android:id="@+id/main_networkDemo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="加载网络的大图片" />
+
+    <Button
+        android:id="@+id/main_list_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="网络长图列表" />
+
+    <Button
+        android:id="@+id/main_linearLayout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="本地长图线性布局" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/main_clear_cache_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清除Glide的缓存"/>
+
+</LinearLayout>
