@@ -1,4 +1,7 @@
 # LargeImage
+
+A copy of https://github.com/LuckyJayce/LargeImage.
+
 Android 加载大图  可以高清显示10000*10000像素的图片  
 可以滑动，放大缩小具有PhotoView的效果  
 普通图片也可以用它展示
